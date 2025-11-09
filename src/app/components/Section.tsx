@@ -7,7 +7,7 @@ export default function Section({
 }: PropsWithChildren<{ id: string; title: string; subtitle?: string }>) {
   return (
     <section id={id} className="py-24 scroll-mt-24">
-      <div className="container">
+      <div className="mx-auto max-w-6xl px-6">
         <motion.h2
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
