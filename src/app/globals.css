@@ -1,28 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@reference "tailwindcss";
 
-/* App background and subtle noise */
-:root {
-  --bg: #0b0b12;
-}
+/* App background + defaults */
+:root { --bg: #0b0b12; }
 
 html, body {
-  @apply h-full;
-  background: radial-gradient(1200px 600px at 50% -10%, rgba(124, 58, 237, .18), transparent 60%),
-              radial-gradient(900px 400px at 100% 0%, rgba(236, 72, 153, .12), transparent 60%),
-              var(--bg);
+  height: 100%;
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(124, 58, 237, .18), transparent 60%),
+    radial-gradient(900px 400px at 100% 0%, rgba(236, 72, 153, .12), transparent 60%),
+    var(--bg);
   color-scheme: dark;
 }
 
-.container {
-  @apply max-w-6xl mx-auto px-6;
-}
-
-/* Smooth anchor scroll */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Fancy focus for a11y */
+html { scroll-behavior: smooth; }
 :focus-visible { outline: 2px dashed #a78bfa; outline-offset: 3px; }
