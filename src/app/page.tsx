@@ -20,7 +20,7 @@ export default function Page() {
               Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-fuchsia-400 to-pink-400">Surakshith</span>
             </h1>
             <p className="mt-3 text-zinc-300 text-lg">
-              Creative <strong>Developer</strong> & <strong>Designer</strong> crafting fast, accessible web experiences with delightful motion.
+              <strong>Full-stack develope</strong>r passionate about building scalable, user-focused products and constantly learning new skills.
             </p>
 
             <div className="mt-6 flex gap-4">
@@ -29,9 +29,9 @@ export default function Page() {
             </div>
 
             <div className="mt-6 flex items-center gap-4 text-sm">
-              <a className="inline-flex items-center gap-2 hover:opacity-80" href="https://github.com/" target="_blank"><Github className="h-4 w-4"/> GitHub</a>
-              <a className="inline-flex items-center gap-2 hover:opacity-80" href="https://www.linkedin.com/" target="_blank"><Linkedin className="h-4 w-4"/> LinkedIn</a>
-              <a className="inline-flex items-center gap-2 hover:opacity-80" href="mailto:hello@example.com"><Mail className="h-4 w-4"/> Email</a>
+              <a className="inline-flex items-center gap-2 hover:opacity-80" href="https://github.com/Surakshith94/" target="_blank"><Github className="h-4 w-4"/> GitHub</a>
+              <a className="inline-flex items-center gap-2 hover:opacity-80" href="https://www.linkedin.com/in/surakshith-acharya-294870329/" target="_blank"><Linkedin className="h-4 w-4"/> LinkedIn</a>
+              <a className="inline-flex items-center gap-2 hover:opacity-80" href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSHxGwmVHtDFZwRQqdDzDXbRRrkVRvfPjvkpgQHVqFRwgzrwCpwSbGtgKFVFvFpdNHCSGxGd"><Mail className="h-4 w-4"/> Email</a>
             </div>
           </div>
 
@@ -46,9 +46,8 @@ export default function Page() {
             <div className="rounded-[28px] p-[2px] bg-gradient-to-b from-white/20 to-white/5">
               <div className="bg-black/40 rounded-[26px] p-8 border border-white/10">
                 <div className="relative mx-auto w-[320px] h-[320px] rounded-full overflow-hidden">
-                  <Image src="/avatar.jpg" alt="Portrait" fill className="object-cover" priority />
+                  <Image src="/avatar.jpeg" alt="Portrait" fill className="object-cover" priority />
                 </div>
-                <p className="text-center text-zinc-400 text-xs mt-3">/* Put your photo at /public/avatar.jpg */</p>
               </div>
             </div>
           </motion.div>
@@ -59,11 +58,11 @@ export default function Page() {
       <Section id="projects" title="Projects" subtitle="Selected work showing craft and curiosity.">
         <div className="grid md:grid-cols-2 gap-6">
           <ProjectCard
-            title="Realtime Markdown Studio"
-            blurb="WASM-powered markdown editor with live preview, cursor presence, and offline sync."
-            tags={["Next.js", "WASM", "CRDT", "Tailwind"]}
-            live="#"
-            repo="#"
+            title="PantryChef-AI"
+            blurb="PantryChef AI is a smart, full-stack web application that transforms a user's leftover ingredients into unique, delicious recipes using the power of Google's Gemini AI. It's designed to reduce food waste and inspire creativity in the kitchen."
+            tags={["Next.js", "Javascript", "Typescript", "Tailwind"]}
+            live="https://pantry-chef-ai-two.vercel.app/"
+            repo="https://github.com/Surakshith94/PantryChef-AI"
           />
           <ProjectCard
             title="EcoShop — Carbon-aware Storefront"
@@ -114,7 +113,7 @@ export default function Page() {
       {/* CONTACT */}
       <Section id="contact" title="Contact" subtitle="Let’s build something great together.">
         <div className="grid md:grid-cols-2 gap-8">
-          <form action="https://formspree.io/f/your_form_id" method="POST"
+          <form action="https://formspree.io/f/xyzlglwy" method="POST"
                 className="rounded-2xl border border-white/10 p-6 bg-white/[.04]">
             <label className="grid gap-2 text-sm">
               <span>Name</span>
@@ -129,7 +128,6 @@ export default function Page() {
               <textarea name="message" required rows={4} className="border border-white/10 rounded-xl px-4 py-2 bg-black/40" placeholder="Tell me about your project" />
             </label>
             <button className="mt-4 px-5 py-2.5 rounded-xl bg-white text-black hover:opacity-90">Send</button>
-            <p className="text-xs text-zinc-500 mt-2">Replace action with your Formspree form ID.</p>
           </form>
 
           <div className="rounded-2xl border border-white/10 p-6 bg-white/[.04]">
@@ -137,17 +135,16 @@ export default function Page() {
             <ul className="mt-3 space-y-2 text-sm text-zinc-400">
               <li>Based in Bengaluru • Open to remote</li>
               <li>Response time: under 24 hours</li>
-              <li>Preferred stack: Next.js + Tailwind + tRPC + Prisma</li>
-              <li>Unique touch: scroll-linked micro-interactions & glassy neon glow</li>
+              <li>Preferred stack: Mern Stack</li>
             </ul>
           </div>
         </div>
       </Section>
 
       <footer className="py-10">
-        <div className="mx-auto max-w-6xl px-6 text-sm text-zinc-500">
-          © {new Date().getFullYear()} Surakshith. Built for the Portfolio Hackathon.
-        </div>
+       <div className="mx-auto max-w-6xl px-6 text-sm text-zinc-500 text-center">
+        © {new Date().getFullYear()} Built by Surakshith. All rights reserved.
+      </div>
       </footer>
     </>
   );
