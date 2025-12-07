@@ -39,5 +39,5 @@ It showcases my projects, skills, and contact information with clean UI, smooth 
 Clone the project:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Surakshith94/Portfolio.git
 cd portfolio
