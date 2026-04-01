@@ -115,7 +115,31 @@ export default function Page() {
             },
           }}
         >
+          
+
           {/* ---- PROJECT CARD 1 ---- */}
+          <motion.div
+            variants={{
+              hidden: { opacity: 0, y: 30 },
+              show: { opacity: 1, y: 0 },
+            }}
+            whileHover={{
+              y: -6,
+              scale: 1.02,
+              boxShadow: "0 0 45px rgba(139,92,246,0.25)",
+            }}
+            transition={{ type: "spring", stiffness: 150, damping: 14 }}
+          >
+            <ProjectCard
+              title="SyncSpace"
+              blurb="SyncSpace is an all-in-one collaboration platform designed to streamline remote development. Built by a MERN stack developer, it eliminates the need to switch between multiple apps by combining a code editor, video conferencing, and a whiteboard into a single, cohesive environment."
+              tags={["React", "Node.js", "socket.io", "MongoDB Atlas"]}
+              live="https://sync-space.vercel.app/"
+              repo="https://github.com/Surakshith94/SyncSpace.git"
+            />
+          </motion.div>
+
+          {/* ---- PROJECT CARD 2 ---- */}
           <motion.div
             variants={{
               hidden: { opacity: 0, y: 30 },
@@ -137,28 +161,6 @@ export default function Page() {
             />
           </motion.div>
 
-          {/* ---- PROJECT CARD 2 ---- */}
-          <motion.div
-            variants={{
-              hidden: { opacity: 0, y: 30 },
-              show: { opacity: 1, y: 0 },
-            }}
-            whileHover={{
-              y: -6,
-              scale: 1.02,
-              boxShadow: "0 0 45px rgba(139,92,246,0.25)",
-            }}
-            transition={{ type: "spring", stiffness: 150, damping: 14 }}
-          >
-            <ProjectCard
-              title="EcoShop — Carbon-aware Storefront"
-              blurb="Headless e-commerce with green hosting metrics and low-carbon image pipeline."
-              tags={["Remix", "Edge", "Cloudflare"]}
-              live="#"
-              repo="#"
-            />
-          </motion.div>
-
           {/* ---- PROJECT CARD 3 ---- */}
           <motion.div
             variants={{
@@ -173,35 +175,15 @@ export default function Page() {
             transition={{ type: "spring", stiffness: 150, damping: 14 }}
           >
             <ProjectCard
-              title="Talky — AI Voice Notes"
-              blurb="Transcribe, summarize and tag voice notes. On-device keyword spotting."
-              tags={["Tauri", "Whisper", "SQLite"]}
+              title="NeuraList"
+              blurb="NeuraList is not just another to-do list. It is a full-stack, algorithm-driven productivity dashboard designed to optimize your workflow based on your current energy levels and mood. Built with the MERN stack, it features dynamic time-boxing, browser storage persistence, and real-time data visualization."
+              tags={["React", "Node.js",  "MongoDB Atlas"]}
               live="#"
               repo="#"
             />
           </motion.div>
 
-          {/* ---- PROJECT CARD 4 ---- */}
-          <motion.div
-            variants={{
-              hidden: { opacity: 0, y: 30 },
-              show: { opacity: 1, y: 0 },
-            }}
-            whileHover={{
-              y: -6,
-              scale: 1.02,
-              boxShadow: "0 0 45px rgba(139,92,246,0.25)",
-            }}
-            transition={{ type: "spring", stiffness: 150, damping: 14 }}
-          >
-            <ProjectCard
-              title="Frames — Micro-interactions Kit"
-              blurb="A tiny motion component library focusing on accessibility and progressive enhancement."
-              tags={["Framer Motion", "A11y", "TypeScript"]}
-              live="#"
-              repo="#"
-            />
-          </motion.div>
+          
         </motion.div>
       </Section>
 
@@ -230,19 +212,15 @@ export default function Page() {
           {[
             {
               h: "Frontend",
-              p: "React, Next.js, Tailwind, Framer Motion, shadcn/ui",
+              p: "React, Next.js, Tailwind, shadcn/ui",
             },
             {
               h: "Backend",
-              p: "Node, Express, tRPC, Prisma, PostgreSQL, Redis",
+              p: "Node.js, Python",
             },
             {
               h: "DevOps",
-              p: "Vercel, Docker, GitHub Actions, Cloudflare, AWS",
-            },
-            {
-              h: "Quality",
-              p: "Lighthouse, Playwright, Vitest, A11y & performance budgets",
+              p: "Vercel, Docker",
             },
           ].map((skill, i) => (
             <motion.div

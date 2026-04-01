@@ -17,7 +17,7 @@ export default function Navbar() {
           transition={{ duration: .5 }}
           className="backdrop-blur border border-white/10 bg-white/5 rounded-2xl px-6 py-3 flex items-center justify-between"
         >
-          <a href="#home" className="font-bold tracking-tight text-white">Surakshith.dev</a>
+          <a href="#home" className="font-bold tracking-tight text-white">Surakshith</a>
           <div className="flex items-center gap-6">
             <Item href="#home" label="Home" />
             <Item href="#projects" label="Projects" />
