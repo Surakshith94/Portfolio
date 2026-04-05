@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Surakshith — Developer & Designer",
-  description: "Modern, animated portfolio.",
-  icons: { icon: "/favicon.svg" },
-  openGraph: { title: "Surakshith — Portfolio", images: ["/og.png"] },
+export const metadata = {
+  metadataBase: new URL("https://surakshith-portfolio.vercel.app/"),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
