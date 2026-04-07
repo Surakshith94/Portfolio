@@ -1,0 +1,66 @@
+[00:00:43.539] Server  LOG      ✓ Ready in 27.5s
+[00:00:46.650] Server  LOG      ○ Compiling / ...
+[00:01:04.047] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:01:05.341] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:05.503] Browser WARN    Image with src "/avatar.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:24.498] Server  LOG      ✓ Compiled in 98ms
+[00:04:19.842] Server  LOG      ✓ Compiled in 75ms
+[00:04:23.948] Server  LOG      ✓ Compiled in 66ms
+[00:04:32.855] Server  LOG      ✓ Compiled in 58ms
+[00:04:36.925] Server  LOG      ✓ Compiled in 64ms
+[00:05:05.398] Server  LOG      ✓ Compiled in 67ms
+[00:05:29.526] Server  LOG      ✓ Compiled in 57ms
+[00:05:34.999] Server  LOG      ✓ Compiled in 55ms
+[00:05:37.062] Server  LOG      ✓ Compiled in 57ms
+[00:06:01.087] Server  LOG      ✓ Compiled in 68ms
+[00:06:13.842] Server  LOG      ✓ Compiled in 67ms
+[00:06:19.144] Server  LOG      ✓ Compiled in 43ms
+[00:06:26.895] Server  LOG      ✓ Compiled in 54ms
+[00:06:30.921] Server  LOG      ✓ Compiled in 58ms
+[00:06:31.951] Server  LOG      ✓ Compiled in 37ms
+[00:06:34.749] Server  LOG      ✓ Compiled in 58ms
+[00:06:57.518] Server  LOG      ✓ Compiled in 59ms
+[00:07:23.908] Server  LOG      ✓ Compiled in 49ms
+[00:07:59.229] Server  LOG      ✓ Compiled in 49ms
+[00:08:02.718] Server  LOG      ✓ Compiled in 57ms
+[00:08:14.155] Server  LOG      ✓ Compiled in 48ms
+[00:08:21.831] Server  LOG      ✓ Compiled in 54ms
+[00:08:42.166] Server  LOG      ✓ Compiled in 61ms
+[00:08:44.099] Server  LOG      ✓ Compiled in 62ms
+[00:08:50.764] Server  LOG      ✓ Compiled in 59ms
+[00:08:52.466] Server  LOG      ✓ Compiled in 71ms
+[00:08:53.222] Browser ERROR   ./Projects/portfolio/src/app/page.tsx:180:46
+Parsing ecmascript source code failed
+  178 |               title="NeuraList"
+  179 |               blurb="NeuraList is not just another to-do list. It is a full-stack, algorithm-driven productivity dashboard designed to optimize your workflow based on your current energy levels and mood. Built with the MERN stack, it features dynamic time-boxing, browser storage persistence, and real-time data visualization."
+> 180 |               tags={["React", "Node.js", ", "MongoDB Atlas"]}
+      |                                              ^^^^^^^
+  181 |               live="#"
+  182 |               repo="#"
+  183 |             />
+
+Expected '</', got 'MongoDB'
+
+Import traces:
+  Client Component Browser:
+    ./Projects/portfolio/src/app/page.tsx [Client Component Browser]
+    ./Projects/portfolio/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/portfolio/src/app/page.tsx [Client Component SSR]
+    ./Projects/portfolio/src/app/page.tsx [Server Component]
+[00:08:57.537] Server  LOG      ✓ Compiled in 70ms
+[00:08:57.648] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:14.751] Server  LOG      ✓ Compiled in 63ms
+[00:09:48.057] Server  LOG      ✓ Compiled in 50ms
+[00:09:49.256] Server  LOG      ✓ Compiled in 58ms
+[00:10:41.241] Server  LOG      ✓ Compiled in 57ms
+[00:10:48.369] Server  LOG      ✓ Compiled in 54ms
+[00:11:12.325] Server  LOG      ✓ Compiled in 57ms
+[00:11:17.617] Server  LOG      ✓ Compiled in 40ms
+[00:11:23.954] Server  LOG      ✓ Compiled in 60ms
+[00:11:27.575] Server  LOG      ✓ Compiled in 48ms
+[00:11:43.135] Server  LOG      ✓ Compiled in 54ms
+[00:11:44.314] Server  LOG      ✓ Compiled in 58ms
+[00:12:02.761] Server  LOG      ✓ Compiled in 62ms
+[00:12:06.093] Server  LOG      ✓ Compiled in 58ms

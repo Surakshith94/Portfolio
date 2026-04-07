@@ -1,0 +1,3 @@
+module.exports=[62574,a=>{"use strict";var b=a.i(82071);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",className:"dark",children:(0,b.jsx)("body",{className:"min-h-screen text-zinc-100 antialiased",children:a})})},"metadata",0,{title:"Surakshith — Developer & Designer",description:"Modern, animated portfolio.",icons:{icon:"/favicon.svg"},openGraph:{title:"Surakshith — Portfolio",images:["/og.png"]}}])},73936,a=>{a.n(a.i(62574))}];
+
+//# sourceMappingURL=Projects_portfolio_src_app_layout_tsx_13o--sc._.js.map
